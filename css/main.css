@@ -181,10 +181,15 @@ iframe {
   background: transparent;
   position: relative;
   z-index: 1;
-  /*display:none;*/
+  display:none;
 }
-.mobile-wrapper{
-  display: none;
+@media (min-width: 1000px) {
+  .container-contact100{
+    display: block;
+  }
+  .mobile-wrapper{
+    display: none;
+  }
 }
 .contact100-map {
   position: absolute;
